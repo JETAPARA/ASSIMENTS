@@ -1,0 +1,98 @@
+*_*_*_*_*_*_*_*JQuery ASSIGNMENT*_*_*_*_*_*_*_*_
+
+
+*****************************************************************************************************************************************************************
+1:What is JQuery?
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------
+ANS:
+     jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.
+
+*****************************************************************************************************************************************************
+2:How to apply css using jQuery,How to add class and remove class in jQuery,jQuery Animation?
+-----------------------------------------------------------------------------------------------------------------------------------------------------
+ANS:
+***********1ST:**********
+
+To apply CSS properties using jQuery, use the css() method. It’s easy to apply any CSS property using jQuery method css( PropertyName, PropertyValue ).
+
+Here is the syntax for the method -
+
+selector.css( PropertyName, PropertyValue );
+Example
+Here you can pass PropertyName as a JavaScript string and based on its value, PropertyValue could be string or integer.
+
+Live Demo
+
+<html>
+
+   <head>
+      <title>jQuery css() method</title>
+      <script src = "https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       
+      <script>
+         $(document).ready(function() {
+            $("li").eq(4).css("color", "green");
+         });
+      </script>
+   </head>
+   
+   <body>
+   
+      <div>
+         <ol>
+            <li>list item 1</li>
+            <li>list item 2</li>
+            <li>list item 3</li>
+            <li>list item 4</li>
+            <li>list item 5</li>
+            <li>list item 6</li>
+         </ol>
+      </div>
+       
+   </body>
+</html>
+
+*********2ND:***********
+
+The addClass() or removeClass() methods are used to add the CSS classes when there is a need to add to our webpage when there is some event listener or to create some kind of effect.
+
+In this article, let us see how can we add a CSS class or remove a CSS class in jQuery.
+
+Syntax:
+
+Adding a class:
+$('selector').addClass(class_name);
+Removing a class:
+$('selector').removeClass(class_name);
+
+*********3ED:***********
+
+The jQuery animate() method is used to create custom animations.
+
+Syntax:
+
+$(selector).animate({params},speed,callback);
+The required params parameter defines the CSS properties to be animated.
+
+The optional speed parameter specifies the duration of the effect. It can take the following values: "slow", "fast", or milliseconds.
+
+The optional callback parameter is a function to be executed after the animation completes.
+
+The following example demonstrates a simple use of the animate() method; it moves a <div> element to the right, until it has reached a left property of 250px:
+
+Example
+$("button").click(function(){
+  $("div").animate({left: '250px'});
+}); 
+
+****************************************************************************************************************************************************
+3:How to creat slider with animation?	
+----------------------------------------------------------------------------------------------------------------------------------------------------
+ANS:           
+Step 1: Come up with a strategy for the slider. You can make as many modifications as you want to Slider Revolution templates. ...
+Step 2: Update the background image in each slide. ...
+Step 3: Update the text layers in each slide. ...
+Step 4: Edit the button text and design in each slide. ...
+Step 5: Edit the slider navigation.
+
+*****************************************************************************************************************************************************
