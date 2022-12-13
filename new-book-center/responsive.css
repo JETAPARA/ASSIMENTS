@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media only screen and (min-width:1225px) and (max-width:1280px) {}
+@media only screen and (min-width:320px) and (max-width:1224px) {
+
+
+	.Header {
+    	width: inherit;
+    	position: inherit;
+    	left: inherit;
+    	bottom: inherit;
+    	text-align: center;
+   	 	z-index: 11;
+    	background-color: var(--site-color-1);
+    	padding: 15px;
+	}
+	.Header h5 {
+    	font-size: 20px;
+	}
+	.Header h1 {
+    	font-size: 45px;
+    	margin-bottom: 10px;
+	}
+	.Header .Desc br {
+    	display: none;
+	}
+	.Desc.TextColor1{
+		line-height: 1.2;
+	}
+	.welcomewrapper .InnerContainWrapper{
+		padding: 40px 0;
+	}
+	.welcomewrapper .listwraper ul li {
+    	width: 23%;
+	}
+	.OurTotalPerformanceWrap ul li {
+    	width: 34%;
+    	margin: 55px 30px;
+	}
+	.MostPopularBooksWrap .LeftWrap, .MostPopularBooksWrap .RightWrap {
+    	width: 100%;
+    	padding: 0px 12px;
+	}
+	.MostPopularBooksWrap .LeftWrap ul {
+    	justify-content: center;
+	}
+	.BecomeAMemberWrap {
+		width: 90%;
+    	margin: 0 auto;
+	}
+
+.MainWrapper, .Footer, .TopMainWrapper, .IdxContainWrapper, .InnerContainWrapper {
+	width:94% !important;
+}
+img ,.EditorText img {
+	max-width:100%;	
+}
+
+/*-- responsive menu css start */
+.HomeTop, .NavLeft, .NavRight {display:none !important;}
+.TopHeader {position:relative;  z-index: 999;}
+.ResponsiveLogo, .TopArrow {display:block !important;}
+.menu {
+	clear: both;
+    min-width: inherit;
+    float: none;
+	display: block;
+    width: 100%;
+    text-align: left;
+}
+	
+	
+/* responsive menu css end */
+
+}
+@media only screen and (min-width:320px) and (max-width:1024px) {
+
+}
+@media only screen and (min-width:769px) and (max-width:1024px) {
+
+}
+@media only screen and (min-width:481px) and (max-width:768px) {
+
+}
+@media only screen and (min-width:320px) and (max-width:480px) {
+
+	
+}
