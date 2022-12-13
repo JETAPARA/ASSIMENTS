@@ -1,0 +1,55 @@
+a{
+    text-decoration: none;
+}
+#nav .nav-con{
+    font-size: 25px !important;
+    font-weight: 700;
+}
+#nav .nav-con span{
+    color: magenta;
+    transform:rotateY(180deg);
+}
+#nav .links a{
+    color: black;
+    font-weight: 500;
+}
+#nav .links a:hover{
+    color: magenta;
+}
+
+
+
+.bio-wrappeer .container{
+    padding: 50px 0;
+    margin:  0 auto;
+    
+}
+.bio-wrappeer .col{
+    background-color: #f4f4f49f;
+    min-width: 300;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.bio-wrappeer .col .text h5{
+    margin-top: 10px;
+}
+.bio-wrappeer .col .btn-secondary{
+    background-color: blue;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.2;
+    border: 2px solid blue;
+    padding: 12px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.bio-wrappeer .col .btn-secondary:hover{
+    background-color: #000;
+    color: #fff;
+    border: 2px solid #000;
+
+}
