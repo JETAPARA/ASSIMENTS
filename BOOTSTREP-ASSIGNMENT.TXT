@@ -1,0 +1,90 @@
+****************************Bootstrap Assignment*****************************
+
+_______________________________________________________________________________________________________________________________________________________________________
+1:WHAT ARE THE ADDVANTAGES OF BOOTSTRAP?
+_______________________________________________________________________________________________________________________________________________________________________
+ANS:
+    The Benefits of Using Bootstrap Framework
+    :Easy to prevent repetitions among multiple projects.
+    :Responsive design that can be used to adapt screen sizes and choose what shows and what doesn't on any given device.
+    :Maintaining consistency among projects when using multiple developer teams.
+    :Quick design of prototypes.
+_______________________________________________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________________________________________
+2:WHAT IS A BOOTSTRAP CONTAINER,AND HOW DOES IT WORK?
+_______________________________________________________________________________________________________________________________________________________________________
+ANS:
+    Containers are the most basic layout element in Bootstrap and are required when using our default grid system.
+    Containers are used to contain, pad, and (sometimes) center the content within them. While containers can be nested, most layouts do not require a nested     container.
+_______________________________________________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________________________________________
+3:WHAT ARE THE DEFAULT BOOTSTRAP TEXT SETTINGS?
+_______________________________________________________________________________________________________________________________________________________________________
+ANS:
+     Bootstrap 4
+   uses a default font-size of 16px, and its line-height is 1.5.
+   The default font-family is "Helvetica Neue", Helvetica, Arial, sans-serif. In addition,
+   all <p> elements have margin-top: 0 and margin-bottom: 1rem (16px by default).
+    
+_______________________________________________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________________________________________
+4:WHAT DO YOU KNOW ABOUT THE BOOTSTREP GRID SYSTERM?
+_______________________________________________________________________________________________________________________________________________________________________
+ANS:
+   Bootstrap's grid system uses a series of containers, rows, and columns to layout and align content. 
+   It's built with flexbox and is fully responsive. 
+   Below is an example and an in-depth look at how the grid comes together.
+_______________________________________________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________________________________________
+5:WHAT IS DIFFERNCE BETWEEN BOOTSTREP4 AND BOOTSTREP 5???
+_______________________________________________________________________________________________________________________________________________________________________
+ANS:
+   The above section talked about the features of both Bootstrap 4 and Bootstrap 5. This section talks about the upgrades that Bootstrap 5 provides over Bootstrap 4.
+
+   Enhanced Grid System
+   The grid system is retained in Bootstrap 5. However, an extra grid tier xxl has been introduced to minimize the effort in making the pages responsive on higher    resolution displays.
+
+   Columns don't have a default relative position in Bootstrap 5.
+
+   Classes have been added to address vertical spacing.
+
+   Enhanced Form Elements
+   The form elements in Bootstrap 4 have defaulted to the browser-provided view. However, in Bootstrap 5, the form elements have a custom design that enables them to    have a consistent look and feel in all browsers.
+
+   The new form controls are based on completely semantic, standard form controls. This helps developers to avoid adding extra markups for form controls.
+_______________________________________________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________________________________________
+6:WHAT IS BUTTON GROUP,AND WHAT IS THE CLASS FOR A BASIC BUTTON GROUP?
+_______________________________________________________________________________________________________________________________________________________________________
+ANS:
+    Button Groups” in Bootstrap is a class of name “btn-group” which is used to create series of buttons in groups (without spaces) vertically or horizontally. This is     the basic syntax of the button group class where each button has its own class of “btn”
+_______________________________________________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________________________________________
+7:HOW CAN YOU USE BOOTSTREP TO MAKE THUMBNAILS?
+_______________________________________________________________________________________________________________________________________________________________________
+ANS:
+    Step 1: Include Bootstrap and jQuery CDN into the <head> tag before all other stylesheets to load our CSS. 
+    Step 2: Add <div> tag in the HTML body with class row. In that <div> create four div sections to create four images.
+    Step 3: Add “col-sm-6” and “col-md-3” to four div sections which creates webpage responsiv
+_______________________________________________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________________________________________
+8:IN BOOTSTRAP4 WHAT IS FLEXBOX? 
+_______________________________________________________________________________________________________________________________________________________________________
+ANS:
+   Flexbox. The biggest difference between Bootstrap 3 and Bootstrap 4 is that Bootstrap 4 now uses flexbox, instead of floats, to handle the layout. The Flexible Box    Layout Module, makes it easier to design flexible responsive layout structure without using float or positioning
+_______________________________________________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________________________________________
+9:HOW CAN ONE CREAT AN ALERT IN BOOTSTRAP?
+_______________________________________________________________________________________________________________________________________________________________________
+ANS:
+   Step 1:Be sure you've loaded the alert plugin, or the compiled Bootstrap JavaScript.
+   Step 2:If you're building our JavaScript from source, it requires util.js . ...
+   Step 3:Add a dismiss button and the .alert-dismissible class, which adds extra padding to the right of the alert and positions the .close button.
+______________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+10:WHAT IS A BOOTSTREP CARD AND HOW WOULD YOU CREAT ONE? 
+_______________________________________________________________________________________________________________________________________________________________________
+ANS:
+    A card is a flexible and extensible content container. It includes options for headers and footers, a wide variety of content, contextual background colors, and powerful display options. If you're familiar with Bootstrap 3, cards replace our old panels, wells, and thumbnails.
+
+   
+_______________________________________________________________________________________________________________________________________________________________________
